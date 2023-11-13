@@ -44,6 +44,12 @@ jobs:
 
       - uses: actions/configure-pages@v3
 
+      - name: Ls dist
+        run: ls .
+
+      - name: ls presentation
+        run: ls rsc-presentation
+
       - uses: actions/upload-pages-artifact@v1
         with:
           path: dist
