@@ -46,7 +46,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: /home/runner/work/meetjs-rsc/rsc-presentation/dist
+          path: rsc-presentation/dist
 
       - name: Deploy
         id: deployment
