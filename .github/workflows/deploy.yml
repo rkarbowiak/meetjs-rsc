@@ -44,6 +44,15 @@ jobs:
 
       - uses: actions/configure-pages@v3
 
+      - name: Debug directory contents
+        run: ls .
+
+      - name: Debug directory contents
+        run: ls /home/runner/work/meetjs-rsc/rsc-presentation
+
+      - name: Debug directory contents
+        run: ls /home/runner/work/meetjs-rsc/meetjs-rsc/rsc-presentation
+
       - uses: actions/upload-pages-artifact@v1
         with:
           path: dist
