@@ -27,7 +27,7 @@ jobs:
           node-version: "lts/*"
 
       - name: Go to the project directory
-        run: cd rsc-presentation
+        run: cd /home/runner/work/meetjs-rsc/rsc-presentation
 
       - name: Install dependencies
         run: npm install
