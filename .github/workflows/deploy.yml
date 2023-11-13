@@ -46,7 +46,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: rsc-presentation/dist
+          path: dist
 
       - name: Deploy
         id: deployment
