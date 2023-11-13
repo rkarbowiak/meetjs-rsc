@@ -45,3 +45,31 @@ export const removeUser = async (userId: string) => {
   await sleep(1000);
   return USERS.filter((user) => user.userId !== userId);
 };
+
+export const getContent = async () => {
+  await sleep(2000);
+
+  return new Array(2).fill(null).map(() => {
+    return {
+      id: faker.string.uuid(),
+      title: faker.lorem.sentence(),
+      description: faker.lorem.paragraph(),
+      image: faker.image.urlPicsumPhotos(),
+      alt: faker.lorem.sentence(),
+    };
+  });
+};
+
+export const getRecommendations = async () => {
+  await sleep(5000);
+
+  return new Array(5).fill(null).map(() => {
+    return {
+      id: faker.string.uuid(),
+      title: faker.lorem.sentence(),
+      description: faker.lorem.paragraph(),
+      image: faker.image.urlPicsumPhotos(),
+      alt: faker.lorem.sentence(),
+    };
+  });
+};

@@ -1,5 +1,5 @@
 import React from "react";
-import { addUser } from "../../../../../db/db";
+import { addUser } from "../../../../db/db";
 
 export default function Page() {
   const handleSubmit = async (formData: FormData) => {

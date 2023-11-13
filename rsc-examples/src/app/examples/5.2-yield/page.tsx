@@ -1,4 +1,4 @@
-import { generatorComponent } from "../../../../components/generator-components";
+import { generatorComponent } from "../../../components/generator-components";
 
 export const dynamic = "force-dynamic";
 
@@ -38,12 +38,8 @@ const Steps = generatorComponent(async function* () {
 export default function GeneratorPage() {
   return (
     <div className="h-screen flex flex-col gap-4 justify-center items-center">
-      <h1 className="text-xl font-bold">
-        The contents below are being streamed
-      </h1>
-      <div className="bg-gray-800 py-8 w-64 flex justify-center items-center text-xl">
-        <Steps />
-      </div>
+      <h1 className="text-xl font-bold">Wait! Processing...</h1>
+      <Steps />
     </div>
   );
 }
