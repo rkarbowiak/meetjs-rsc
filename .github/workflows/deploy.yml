@@ -35,7 +35,7 @@ jobs:
         working-directory: /home/runner/work/meetjs-rsc/meetjs-rsc/rsc-presentation
 
       - name: Install @slidev/theme-default
-        run: npm i -D @slidev/theme-default
+        run: npm i -g @slidev/theme-default
         working-directory: /home/runner/work/meetjs-rsc/meetjs-rsc/rsc-presentation
 
       - name: Build
@@ -44,15 +44,9 @@ jobs:
 
       - uses: actions/configure-pages@v3
 
-      - name: Debug directory contents
-        run: ls rsc-presentation
-
-      - name: Debug directory contents
-        run: ls /home/runner/work/meetjs-rsc/meetjs-rsc/rsc-presentation
-
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: /rsc-presentation/dist
 
       - name: Deploy
         id: deployment
