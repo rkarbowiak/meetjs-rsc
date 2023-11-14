@@ -495,6 +495,8 @@ layout: center
 - https://www.joshwcomeau.com/react/server-components/ Making sense of RSC
 - https://github.com/reactwg/react-18/discussions/37 New Suspense SSR Architecture in React 18
 - https://nextjs.org/docs/app/building-your-application/data-fetching NextJS Docs
+- Przykłady, którymi się inspirowałem:
+  - od https://github.com/sebmarkbage (yield)
 
 ---
 layout: center
