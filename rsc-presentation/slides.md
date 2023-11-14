@@ -57,7 +57,7 @@ layout: default
     <li>Podsumowanie</li>
   </ul>
 
-  <div> PS: Na prezentacji będziemy Next.js </div>
+  <div> PS: Na prezentacji będziemy używać Next.js </div>
 </div>
 
 --- 
@@ -100,7 +100,7 @@ layout: center
 ## Minusy 
 
 - Google nie zaindeksuje naszej strony
-- Powolne ładowanie strony
+- Dużo zapytań do serwera
 - Bundle JS musi być pobrany i uruchomiony, duży wpływ wielkości bundle'a na czas ładowania
 - Utrudnione cache'owanie
 
