@@ -24,6 +24,9 @@ Zanurkujmy w React Server Components
  
 </div>
 
+<img src="images/frame.png" class="abs-tr w-20 h-20 m-6"/>
+
+
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/rkarbowiak" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -412,7 +415,7 @@ layout: default
 ## Co z mutacją danych?
 
 
-```jsx {all} {lines:true}
+```jsx {all|3} {lines:true}
 export default function Page() {
   const handleSubmit = async (formData: FormData) => {
     "use server";
